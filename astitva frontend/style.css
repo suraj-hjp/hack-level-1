@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 95px;
+    line-height: 75px;
+    padding: 0px 100px;
+    display: flex;
+    
+}
+
+.logo img{
+    
+    width: 400px;
+}
+
+nav p{
+    padding: 10px ;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu p:hover{
+    background-color: red;
+}
+
+.search-box{
+    padding-left: 40px;
+    display: flex;
+    margin: 0;
+}
+
+.search-box p{
+    background-color: red;
+    padding: 0;
+    margin: 0;
+}
+
+.search-box placeholder{
+    background-color: rgb(217, 214, 214);
+}
+
+.banner img{
+    object-fit: contain;
+    height: 300px;
+}
+
+.section1{
+    padding: 10px 210px;
+    display: flex;
+    height: 350px;
+}
+
+.section1 h1{
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.section1 p{
+    padding-top: 40px;
+    font-size: 20px;
+    width: 60%;
+    gap: 1rem;
+    align-items: baseline;
+}
+
+.video{
+    width: 600px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+}
+.section2 img{
+    padding-left: 210px;
+}
+
+.section2 .img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(221, 216, 216);
+}
+
+.section2 .text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: red;
+}
+.section2 p{
+    padding-left: 200px;
+    padding-right: 0px;
+    padding-top: 40px;
+    font-size: 20px;
+    width: 60%;
+    gap: 1rem;
+    align-items: baseline;
+    color: white;
+}
+
+.section2 .btn{
+    margin-left: 210px;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+}
+
+.section3 .text{
+    background-color: rgb(2, 154, 154);
+    padding-left: 210px;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section3 .text img{
+    background-color: rgb(2, 154, 154);
+}
+
+.section3 img{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-right: 210px;
+    background-color: rgb(221, 216, 216);
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+}
+
+.section4 .text{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 210px;
+    background-color: red;
+}
+
+.section4 .text img{
+    padding-bottom: 30px;
+    padding-right: 210px;
+    
+    background-color: red;
+}
+
+.section4 img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding-left: 210px; */
+    background-color: rgb(221, 216, 216);
+}
+
+.photo{
+    padding-left: 210px;
+}
+
+button{
+    
+    border-radius: 30px;
+}
+
+button p{
+    padding: 10px 10px;
+}
+
+.btn{
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+
+/* .section1 button{
+    height: 50px;
+    width: 100px;
+    padding-top: 50px;
+} */
+
+footer p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
